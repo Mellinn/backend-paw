@@ -2,19 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "uinjek.js",
+      "src": "index.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "uinjek.js",
-      "headers": {
-        "Access-Control-Allow-Origin": "http://localhost:3000",
-        "Access-Control-Allow-Methods": "POST",
-        "Access-Control-Allow-Headers": "Content-Type"
-      }
+      "dest": "index.js"
     }
   ]
 }
