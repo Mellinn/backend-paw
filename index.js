@@ -18,6 +18,6 @@ app.use("/api/pelanggans", pelanggansRoute);
 app.use("/api/orders", ordersRoute);
 app.use("/api/test", testRoute);
 
-const port = process.env.PORT || 5000;
-
-app.listen(port, () => console.log("Server UINJEK is running on port", port));
+app.listen(3000, () => {
+  console.log("Server uinjek is running on port 3000");
+});
