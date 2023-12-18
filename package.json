@@ -1,4 +1,16 @@
 {
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "uinjek.js",
+  "scripts": {
+    "start": "node uinjek.js",
+    "dev-start": "nodemon uinjek.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "axios": "^1.4.0",
     "cors": "^2.8.5",
