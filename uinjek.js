@@ -5,7 +5,7 @@ const cors = require("cors");
 mongoose.set("strictQuery", false);
 
 var mongoURL =
-  "mongodb+srv://uinjek:uinjek@cluster0.93sie2d.mongodb.net/db-uinjek";
+  "mongodb+srv://megan:megan@cluster0.lfo8q5x.mongodb.net/server-uinjek";
 
 mongoose.connect(mongoURL, { useUnifiedTopology: true, useNewUrlParser: true });
 
